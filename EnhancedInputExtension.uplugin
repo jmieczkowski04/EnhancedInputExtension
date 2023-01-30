@@ -1,0 +1,29 @@
+{
+	"FileVersion" : 3,
+    "Version" : 1,
+    "VersionName" : "1.0",
+    "FriendlyName" : "Enhanced Input Extension",
+    "Description" : "Extend Enhanced Input to allow detect change of InputType",
+    "Category" : "Examples",
+    "DocsURL" : "",
+    "MarketplaceURL" : "",
+    "SupportURL" : "",
+    "EnabledByDefault" : true,
+    "CanContainContent" : false,
+    "IsBetaVersion" : false,
+    "Modules" :
+    [
+        {
+            "Name" : "EnhancedInputExtension",
+            "Type" : "Runtime",
+            "LoadingPhase" : "PreDefault"
+        }
+    ],
+	"Plugins" : 
+	[
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
